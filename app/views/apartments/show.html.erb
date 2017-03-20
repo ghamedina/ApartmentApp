@@ -45,7 +45,7 @@
   <%= @apartment.hours %>
 </p>
 
-<div id="googleMap" style="width:300px;height:300px;" style="float:right;"></div>
+<div id="apartment_map" data-apartment-id="<%=@apartment.id%>">Google Map will appear here...</div>
 
 
 <%= link_to 'Edit', edit_apartment_path(@apartment) %> |
